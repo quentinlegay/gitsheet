@@ -2,7 +2,7 @@ site_name: Gitsheet (WIP)
 theme:
   name: material
   features:
-    # - navigation.tabs
+    - navigation.tabs
     - navigation.sections
     - toc.integrate
     - navigation.top
@@ -32,6 +32,21 @@ extra:
     - name: English
       link: /en/ 
       lang: en
-
+# Page tree
+nav:
+  - Home: index.md
+  - Getting started:
+    - SSH key: ssh_key.md
+    - Most used commands: most_used_commands.md
+  - Best Practices:
+    - Conventions: conventions.md
+    - Pre-commit: pre-commit.md
+  - IDE embedded:
+    - VS Code : vscode.md
+  - Common questions:
+    - Common questions: common_questions.md
+  - Pull requests:
+    - Github: Github.md
+    - Azure Devops: azure_devops.md
 copyright: |
   &copy; 2024 <a href="https://github.com/quentinlegay"  target="_blank" rel="noopener">Quentin LEGAY</a>

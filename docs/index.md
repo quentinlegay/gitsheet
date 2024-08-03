@@ -1,6 +1,6 @@
-# Bienvenu sur GitSheet
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Ce site statique est une anti-sèche de l'outil Git créé par un Ops mais utilisable par tout ceux qui ne se souvienne plus des commandes Git
 
 ## Commands
 
