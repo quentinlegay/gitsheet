@@ -35,7 +35,7 @@ theme:
 # Page tree
 nav:
   - Home: index.md
-  - Getting started:
+  - Quick-Start:
     - Installation: install.md
     - SSH key: ssh_key.md
     - Basic commands: basic_commands.md
@@ -50,5 +50,6 @@ nav:
   - Pull requests:
     - Github: Github.md
     - Azure Devops: azure_devops.md
+  - Resources: resources.md
 copyright: |
-  &copy; 2024 <a href="https://github.com/quentinlegay"  target="_blank" rel="noopener">Quentin LEGAY</a>
+  &copy; 2024 <a href="https://github.com/quentinlegay"  target="_blank" rel="noopener">Quentin LEGAY, v0.0.1</a>
