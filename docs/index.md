@@ -1,6 +1,6 @@
 # Welcome
 
-Ce site statique est une anti-sèche de l'outil Git créé par un Ops mais utilisable par tout ceux qui ne se souvienne plus des commandes Git
+Ce site statique est une anti-sèche de l'outil Git créé par un Ops mais utilisable par tout ceux qui ne se souviennent plus des commandes Git
 
 ## Commands
 

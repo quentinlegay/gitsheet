@@ -24,23 +24,25 @@ theme:
         name: Switch to light mode   
       primary: amber
       accent: orange
-extra:
-  alternate:
-    - name: Français
-      link: /fr/
-      lang: fr
-    - name: English
-      link: /en/ 
-      lang: en
+# extra:
+#   alternate:
+#     - name: Français
+#       link: /fr/
+#       lang: fr
+#     - name: English
+#       link: /en/ 
+#       lang: en
 # Page tree
 nav:
   - Home: index.md
   - Getting started:
+    - Installation: install.md
     - SSH key: ssh_key.md
-    - Most used commands: most_used_commands.md
+    - Basic commands: basic_commands.md
   - Best Practices:
     - Conventions: conventions.md
     - Pre-commit: pre-commit.md
+  - Most used commands: most_used_commands.md
   - IDE embedded:
     - VS Code : vscode.md
   - Common questions:
