@@ -24,6 +24,8 @@ theme:
         name: Switch to light mode   
       primary: amber
       accent: orange
+markdown_extensions:
+  - attr_list
 # extra:
 #   alternate:
 #     - name: Français
@@ -42,7 +44,9 @@ nav:
   - Best Practices:
     - Conventions: conventions.md
     - Pre-commit: pre-commit.md
-  - Most used commands: most_used_commands.md
+  - Most used commands: 
+    - Most Used Commands: most_used_commands.md
+    - Misc commands : misc_commands.md
   - IDE embedded:
     - VS Code : vscode.md
   - Common questions:
