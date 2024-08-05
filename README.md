@@ -1,13 +1,22 @@
-# git-cheatsheet-v2
+# Gitsheet
 
-==== WIP ====
+This is the repository of https://quentinlegay.github.io/gitsheet.
 
+This website is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
-# Test locally
+## How to contribute?
 
-in directory, execute :
-bash
-``` bash 
+### Clone the repository
+
+```
+git clone https://quentinlegay.github.io/gitsheet
+cd gitsheet
+```
+
+### Running the website locally
+
+```
 mkdocs serve
 ```
-then: http://127.0.0.1:8000/
+
+http://127.0.0.1:8000/

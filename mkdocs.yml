@@ -26,6 +26,17 @@ theme:
       accent: orange
 markdown_extensions:
   - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 # extra:
 #   alternate:
 #     - name: Français
@@ -58,3 +69,11 @@ nav:
   - Resources: resources.md
 copyright: |
   &copy; 2024 <a href="https://github.com/quentinlegay"  target="_blank" rel="noopener">Quentin LEGAY, v0.0.1</a>
+
+# Additional configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/squidfunk
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/squidfunk
