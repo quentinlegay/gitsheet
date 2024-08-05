@@ -50,6 +50,7 @@ nav:
   - Pull requests:
     - Github: Github.md
     - Azure Devops: azure_devops.md
+  - Tips: tips.md
   - Resources: resources.md
 copyright: |
   &copy; 2024 <a href="https://github.com/quentinlegay"  target="_blank" rel="noopener">Quentin LEGAY, v0.0.1</a>
