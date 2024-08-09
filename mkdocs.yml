@@ -59,8 +59,10 @@ nav:
   - Most used commands: 
     - Most Used Commands: most_used_commands.md
     - Misc commands : misc_commands.md
-  - IDE embedded:
+  - UI git:
     - VS Code : vscode.md
+    - Github Desktop : github_desktop.md
+    - Git GUI : git_gui.md
   - Common questions:
     - Common questions: common_questions.md
   - Pull requests:
