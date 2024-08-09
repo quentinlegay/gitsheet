@@ -26,6 +26,7 @@ theme:
       accent: orange
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -77,3 +78,5 @@ extra:
       link: https://github.com/squidfunk
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/squidfunk
+
+

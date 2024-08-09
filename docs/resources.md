@@ -1,4 +1,4 @@
-Ici, toutes les ressources qui m'ont permis de monter en compétences sur git.
+Ici, des ressources pour monter en compétences sur git.
 
 - Site [Learn-git](https://yasoob.github.io/learn-git/) par Yasoob Khalid
 
@@ -7,3 +7,5 @@ Ici, toutes les ressources qui m'ont permis de monter en compétences sur git.
 - [Et merde, Git!?!](https://ohshitgit.com/fr)
 
 - Jeux pour apprendre les branches de Git [learn Git Branching](https://learngitbranching.js.org/?locale=fr_FR)
+
+- Outil [Gitignore.io](https://www.toptal.com/developers/gitignore/)
