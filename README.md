@@ -12,7 +12,7 @@ This website is built with [Material for MkDocs](https://squidfunk.github.io/mkd
 git clone https://quentinlegay.github.io/gitsheet
 cd gitsheet
 ```
-### Install dependancie
+### Install dependancies
 
 ```
 pip install -r requirements.txt
@@ -25,3 +25,7 @@ mkdocs serve
 ```
 
 http://127.0.0.1:8000/
+
+### Deploy with docker
+
+soon !
