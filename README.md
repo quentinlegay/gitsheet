@@ -12,6 +12,11 @@ This website is built with [Material for MkDocs](https://squidfunk.github.io/mkd
 git clone https://quentinlegay.github.io/gitsheet
 cd gitsheet
 ```
+### Install dependancie
+
+```
+pip install -r requirements.txt
+```
 
 ### Running the website locally
 
