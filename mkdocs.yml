@@ -53,12 +53,12 @@ nav:
     - Installation: install.md
     - SSH key: ssh_key.md
     - Basic commands: basic_commands.md
-  - Best Practices:
-    - Conventions: conventions.md
-    - Pre-commit: pre-commit.md
   - Most used commands: 
     - Most Used Commands: most_used_commands.md
     - Misc commands : misc_commands.md
+  - Best Practices:
+    - Conventions: conventions.md
+    - Pre-commit: pre-commit.md
   - UI git:
     - VS Code : vscode.md
     - Github Desktop : github_desktop.md
