@@ -1,4 +1,4 @@
-# Level 1
+# Level 1 - Git Starter
 
 Cloner un repository :
 ``` bash 
@@ -25,10 +25,10 @@ Envoie les commits locaux au dépôt distant :
 git push
 ```
 
-# Level 2 
+# Level 2 - Git Contributor
 Création d'une nouvelle branche nommée featureA et bascule immédiatement sur celle-ci :
 ``` bash 
 git checkout -b featureA
 ```
 
-# Level 3
+# Level 3 - Git Expert
