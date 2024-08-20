@@ -28,25 +28,25 @@ theme:
 markdown_extensions:
   - attr_list
   - md_in_html
-  # - pymdownx.superfences:
-  #     custom_fences:
-  #       - name: mermaid
-  #         class: mermaid
-  #         format: !!python/name:pymdownx.superfences.fence_code_format
-  # - pymdownx.tabbed:
-  #     alternate_style: true
-  #     combine_header_slug: true
-  #     slugify: !!python/object/apply:pymdownx.slugs.slugify
-  #       kwds:
-  #         case: lower
-# extra:
-#   alternate:
-#     - name: Français
-#       link: /fr/
-#       lang: fr
-#     - name: English
-#       link: /en/ 
-#       lang: en
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+extra:
+  alternate:
+    - name: Français
+      link: /fr/
+      lang: fr
+    - name: English
+      link: /en/ 
+      lang: en
 # Page tree
 nav:
   - Home: index.md
