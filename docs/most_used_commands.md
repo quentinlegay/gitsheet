@@ -5,6 +5,11 @@ Cloner un repository :
 git clone https://github.com/quentinlegay/gitsheet.git
 ```
 
+Initialiser un repository :
+``` bash 
+git init
+```
+
 Ajoute tous les fichiers nouveaux ou modifiés du répertoire courant au suivi de Git, les préparant pour le prochain commit :
 ``` bash 
 git add *

@@ -9,3 +9,20 @@
 - **"master"** a été le nom par défaut de la branche principale dans Git depuis sa création en 2005, sans connotation sociale particulière.
 - En 2020, suite aux mouvements sociaux et à un effort pour un langage plus inclusif, GitHub et d'autres plateformes ont adopté **"main"** comme nouveau nom par défaut pour la branche principale.
 - Aujourd'hui, **"main"** est couramment utilisé pour les nouveaux projets, bien que certains dépôts plus anciens utilisent encore "master".
+
+# Comprendre le dossier .git
+
+Le dossier `.git` est crucial pour un dépôt Git, contenant les éléments nécessaires pour gérer l'historique et la configuration d'un projet. Voici les principaux fichiers et dossiers qu'il contient :
+
+- **`HEAD`** : Pointeur vers la branche active actuelle.
+- **`config`** : Configuration spécifique au dépôt (utilisateur, branches, etc.).
+- **`description`** : Description du dépôt, utilisé par des interfaces comme GitWeb.
+- **`index`** : Zone de transit (staging area) pour les changements avant commit.
+- **`logs/`** : Journaux des déplacements de `HEAD` et des branches.
+- **`objects/`** : Contient tous les objets Git (commits, arbres, blobs) sous forme compressée.
+- **`refs/`** : Références aux branches, tags, et autres pointeurs vers des commits.
+- **`info/`** : Informations supplémentaires, comme des exclusions de commit.
+- **`hooks/`** : Scripts déclenchés par certains événements Git (ex: `pre-commit`).
+- **`packed-refs`** : Fichier compressant les références pour optimiser l'accès.
+
+Ces composants font de `.git` le cœur du suivi de version dans Git.
