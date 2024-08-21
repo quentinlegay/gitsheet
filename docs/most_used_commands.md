@@ -25,15 +25,25 @@ Affiche l'état actuel du dépôt, montrant les modifications qui ont été fait
 git status
 ```
 
-Envoie les commits locaux au dépôt distant : 
+Envoie les commits locaux au dépôt distant :
 ``` bash 
 git push
 ```
-
 # Level 2 - Git Contributor
 Création d'une nouvelle branche nommée featureA et bascule immédiatement sur celle-ci :
 ``` bash 
 git checkout -b featureA
 ```
 
+Récupérer les modifications depuis un dépôt distant et les fusionner avec la branche locale active.
+```bash
+git pull <remote> <branch>
+```
+Elle combine deux commandes Git en une :
+
+1. **`git fetch`** : Récupère les nouveaux commits depuis le dépôt distant.
+2. **`git merge`** : Fusionne les modifications récupérées avec la branche courante.
+
 # Level 3 - Git Expert
+
+*Merci de patienter s'il vous plait, je ne suis pas encore expert.*

@@ -26,3 +26,14 @@ Le dossier `.git` est crucial pour un dépôt Git, contenant les éléments néc
 - **`packed-refs`** : Fichier compressant les références pour optimiser l'accès.
 
 Ces composants font de `.git` le cœur du suivi de version dans Git.
+
+# Comprendre le fichier .gitignore
+
+Le fichier `.gitignore` indique à Git quels fichiers ou dossiers ne doivent pas être suivis ou inclus dans le contrôle de version. Il est placé à la racine du dépôt ou dans des sous-dossiers spécifiques.
+
+**Exemple :**
+
+- Ignorer tous les fichiers temporaires créés par un éditeur de texte : *.tmp
+- Ignorer les fichiers de configuration secrets : .env
+
+
