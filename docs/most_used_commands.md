@@ -1,4 +1,4 @@
-# Level 1 - Git Starter
+# Démarrer un repository
 
 Cloner un repository :
 ``` bash 
@@ -10,6 +10,8 @@ Initialiser un repository :
 git init
 ```
 
+# Effectuer des changements
+
 Ajoute tous les fichiers nouveaux ou modifiés du répertoire courant au suivi de Git, les préparant pour le prochain commit :
 ``` bash 
 git add *
@@ -20,16 +22,11 @@ Enregistre les modifications suivies (staged) dans un nouveau commit avec un mes
 git commit -am "fix issue X"
 ```
 
-Affiche l'état actuel du dépôt, montrant les modifications qui ont été faites et celles qui sont prêtes à être commises :
-``` bash 
-git status
-```
-
 Envoie les commits locaux au dépôt distant :
 ``` bash 
 git push
 ```
-# Level 2 - Git Contributor
+# Travailler avec des branches
 Création d'une nouvelle branche nommée featureA et bascule immédiatement sur celle-ci :
 ``` bash 
 git checkout -b featureA
@@ -44,6 +41,9 @@ Elle combine deux commandes Git en une :
 1. **`git fetch`** : Récupère les nouveaux commits depuis le dépôt distant.
 2. **`git merge`** : Fusionne les modifications récupérées avec la branche courante.
 
-# Level 3 - Git Expert
+# Checker son repository
 
-*Merci de patienter s'il vous plait, je ne suis pas encore expert.*
+Affiche l'état actuel du dépôt, montrant les modifications qui ont été faites et celles qui sont prêtes à être commises :
+``` bash 
+git status
+```

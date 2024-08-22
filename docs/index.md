@@ -1,3 +1,3 @@
 # Welcome
 
-Gitsheet, une anti-sèche pour tout ceux qui se grattent la tête avec Git.
+Gitsheet, une anti-sèche git qui reste toujours ouverte.

@@ -36,4 +36,9 @@ Le fichier `.gitignore` indique à Git quels fichiers ou dossiers ne doivent pas
 - Ignorer tous les fichiers temporaires créés par un éditeur de texte : *.tmp
 - Ignorer les fichiers de configuration secrets : .env
 
+# Pourquoi travailler avec des branches git ?
+
+Travailler avec des branches Git permet d'isoler différentes tâches de développement, de collaborer sans conflits, et de gérer les versions du code de manière organisée. Les branches facilitent l'expérimentation, la revue de code, et le déploiement progressif des fonctionnalités. Elles aident également à maintenir un historique propre et permettent un rétablissement facile en cas de problème.
+
+
 
