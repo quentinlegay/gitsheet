@@ -29,3 +29,9 @@ http://127.0.0.1:8000/
 ### Deploy with docker
 
 soon !
+
+## Roadmap
+
+add infos about local/global config:
+- git config --local --get user.name
+- git config --local --get user.email
