@@ -32,6 +32,10 @@ soon !
 
 ## Roadmap
 
-add infos about local/global config:
-- git config --local --get user.name
-- git config --local --get user.email
+- add infos about local/global config:
+    - git config --local --get user.name
+    - git config --local --get user.email
+
+- Git trunk
+
+- Squash commit
