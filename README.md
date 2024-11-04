@@ -39,3 +39,5 @@ soon !
 - Git trunk
 
 - Squash commit
+
+- Add vscode extension 
