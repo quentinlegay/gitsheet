@@ -45,3 +45,6 @@ soon !
 - Complete "Echange de clé ssh", type de clé supporté par les solution git distant (Azure Devops, Github)
 
 - Add liste git distant SaaS, Onprem, Souverain, light...
+
+- Add info authent ( Git Credential Manager (GCM) etc https://learn.microsoft.com/en-us/azure/devops/repos/git/auth-overview?view=azure-devops)
+
