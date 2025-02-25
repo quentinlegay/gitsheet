@@ -40,4 +40,8 @@ soon !
 
 - Squash commit
 
-- Add vscode extension 
+- Add vscode extension
+
+- Complete "Echange de clé ssh", type de clé supporté par les solution git distant (Azure Devops, Github)
+
+- Add liste git distant SaaS, Onprem, Souverain, light...
