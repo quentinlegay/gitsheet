@@ -41,6 +41,11 @@ Elle combine deux commandes Git en une :
 1. **`git fetch`** : Récupère les nouveaux commits depuis le dépôt distant.
 2. **`git merge`** : Fusionne les modifications récupérées avec la branche courante.
 
+Créer une branche locale à partir d'une branche distante (Si par exemple vous voulez récupérer la branche distante feature/ma-branche)
+```bash
+git checkout -b feature/ma-branche origin/feature/ma-branche
+```
+
 # Checker son repository
 
 Affiche l'état actuel du dépôt, montrant les modifications qui ont été faites et celles qui sont prêtes à être commises :
